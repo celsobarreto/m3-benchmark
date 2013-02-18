@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding="iso-8859-1" ?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+	<Alignment>
+		<!--MatchResult of of EMF Compare-->
+		<xml>yes</xml>
+		<level>0</level>
+		<type>11</type>
+		<onto1>http://www.eclipse.org/emf/2002/Ecore</onto1>
+		<onto2>http://webml</onto2>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EAttribute"/>
+				<entity2 rdf:resource="http://webml#Attribute"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EAnnotation"/>
+				<entity2 rdf:resource="http://webml#Relationship"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#ENamedElement"/>
+				<entity2 rdf:resource="http://webml#NamedElement"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EAnnotation_details"/>
+				<entity2 rdf:resource="http://webml#Domain_domainValue"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EAnnotation_contents"/>
+				<entity2 rdf:resource="http://webml#Entity_attribute"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EClass_eOperations"/>
+				<entity2 rdf:resource="http://webml#Entity_relationship"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EClass_interface"/>
+				<entity2 rdf:resource="http://webml#Relationship_minCard"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral_value"/>
+				<entity2 rdf:resource="http://webml#DomainValue_value"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#ENamedElement_name"/>
+				<entity2 rdf:resource="http://webml#NamedElement_name"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EReference_containment"/>
+				<entity2 rdf:resource="http://webml#Attribute_contentType"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature_volatile"/>
+				<entity2 rdf:resource="http://webml#Relationship_roleName"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+	</Alignment>
+</rdf:RDF>

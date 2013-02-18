@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding="iso-8859-1" ?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+	<Alignment>
+		<!--MatchResult of of EMF Compare-->
+		<xml>yes</xml>
+		<level>0</level>
+		<type>11</type>
+		<onto1>http://er</onto1>
+		<onto2>http://uml2CD</onto2>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://er#Relationship"/>
+				<entity2 rdf:resource="http://uml2CD#Relationship"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#RelationshipEnd"/>
+				<entity2 rdf:resource="http://uml2CD#DirectRelationship"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#ExistenceDependency"/>
+				<entity2 rdf:resource="http://uml2CD#Dependency"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#Relationship_relationshipAttribute"/>
+				<entity2 rdf:resource="http://uml2CD#Classifier_substitution"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#Relationship_name"/>
+				<entity2 rdf:resource="http://uml2CD#NamedElement_name"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#RelationshipEnd_owningRelationship"/>
+				<entity2 rdf:resource="http://uml2CD#Constraint_specification"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#RelationshipEnd_entity"/>
+				<entity2 rdf:resource="http://uml2CD#ElementImport_importedElement"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#Entity_entityAttribute"/>
+				<entity2 rdf:resource="http://uml2CD#Class_ownedAttribute"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#Attribute_owningEntity"/>
+				<entity2 rdf:resource="http://uml2CD#Comment_owningElement"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#Attribute_owningRelationship"/>
+				<entity2 rdf:resource="http://uml2CD#Property_owningAssociation"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#PrimaryKey_owningEntity"/>
+				<entity2 rdf:resource="http://uml2CD#Substitution_substitutingClassifier"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#PrimaryKey_attribute"/>
+				<entity2 rdf:resource="http://uml2CD#Relationship_relatedElement"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+	</Alignment>
+</rdf:RDF>

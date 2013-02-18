@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>11</type>
+	<onto1>http://www.eclipse.org/emf/2002/Ecore</onto1>
+	<onto2>http://uml2CD</onto2>
+  <map>
+    <Cell>
+	<entity2 rdf:resource='http://uml2CD#NamedElement'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ENamedElement'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#NamedElement_name'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ENamedElement_name'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#MultiplicityElement_lowerValue'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ETypedElement_lowerBound'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#MultiplicityElement_upperValue'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ETypedElement_upperBound'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#MultiplicityElement_isOrdered'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ETypedElement_ordered'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#MultiplicityElement_isUnique'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ETypedElement_unique'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#TypedElement_type'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ETypedElement_eType'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#StructuralFeature_isReadOnly'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature_changeable'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Property_defaultValue'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature_defaultValueLiteral'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Property_isDerived'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature_derived'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Feature_featuringClassifier'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature_eContainingClass'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Package'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EPackage'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Package_nestedPackage'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EPackage_eSubpackages'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Package_nestingPackage'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EPackage_eSuperPackage'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Package_packagedElement'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EPackage_eClassifiers'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#PackageableElement_owningPackage'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClassifier_ePackage'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Classifier'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClassifier'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Class'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClass'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Interface'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClass'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Classifier_isAbstract'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClass_abstract'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Classifier_feature'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClass_eStructuralFeatures'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Class_ownedOperation'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClass_eOperations'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Class_ownedAttribute'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClass_eAttributes'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Class_ownedAttribute'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClass_eReferences'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Property_aggregation'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EReference_containment'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Operation'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EOperation'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Operation_Class'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EOperation_eContainingClass'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#BehavioralFeature_ownedParameter'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EOperation_eParameters'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Parameter'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EParameter'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Parameter_ownerFormalParam'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EParameter_eOperation'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#DataType'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EDataType'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Enumeration'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EEnum'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#Enumeration_ownedLiteral'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EEnum_eLiterals'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#EnumerationLiteral'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#EnumerationLiteral_enumeration'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral_eEnum'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+	<Cell>
+	<entity2 rdf:resource='http://uml2CD#StructuralFeature'/>
+	<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature'/>
+	<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1.0</measure>
+	<relation>=</relation>
+    </Cell>
+</map>
+</Alignment>
+</rdf:RDF>

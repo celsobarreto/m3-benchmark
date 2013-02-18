@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding="iso-8859-1" ?>
+
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>11</type>
+<onto1>http://www.eclipse.org/emf/2002/Ecore</onto1>
+<onto2>http://webml</onto2>
+<map>
+<Cell>
+<entity2 rdf:resource='http://webml#NamedElement'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ENamedElement'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#NamedElement_name'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ENamedElement_name'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Entity'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClass'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Entity_superEntity'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClass_eSuperTypes'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Entity_attribute'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClass_eAttributes'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Entity_relationship'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EClass_eReferences'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Relationship'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EReference'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Relationship_maxCard'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ETypedElement_upperBound'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Relationship_minCard'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ETypedElement_lowerBound'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Relationship_roleName'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ENamedElement_name'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Relationship_inverse'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EReference_eOpposite'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Relationship_to'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EReference_eReferenceType'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Domain'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EEnum'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Domain_domainValue'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EEnum_eLiterals'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#DomainValue'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#DomainValue_value'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#ENamedElement_name'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Attribute'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EAttribute'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Attribute_type'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EAttribute_eAttributeType'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://webml#Attribute_domain'/>
+<entity1 rdf:resource='http://www.eclipse.org/emf/2002/Ecore#EAttribute_eAttributeType'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

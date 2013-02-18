@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding="iso-8859-1" ?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+	<Alignment>
+		<!--MatchResult of of EMF Compare-->
+		<xml>yes</xml>
+		<level>0</level>
+		<type>11</type>
+		<onto1>http://uml2CD</onto1>
+		<onto2>http://webml</onto2>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://uml2CD#Relationship"/>
+				<entity2 rdf:resource="http://webml#Relationship"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://uml2CD#NamedElement"/>
+				<entity2 rdf:resource="http://webml#NamedElement"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://uml2CD#NamedElement_name"/>
+				<entity2 rdf:resource="http://webml#NamedElement_name"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://uml2CD#MultiplicityElement_lowerValue"/>
+				<entity2 rdf:resource="http://webml#Domain_domainValue"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://uml2CD#MultiplicityElement_isUnique"/>
+				<entity2 rdf:resource="http://webml#DomainValue_value"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://uml2CD#Generalization_general"/>
+				<entity2 rdf:resource="http://webml#Relationship_inverse"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://uml2CD#Classifier_generalization"/>
+				<entity2 rdf:resource="http://webml#Entity_relationship"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://uml2CD#Class_superClass"/>
+				<entity2 rdf:resource="http://webml#Entity_superEntity"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://uml2CD#Class_ownedAttribute"/>
+				<entity2 rdf:resource="http://webml#Entity_attribute"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://uml2CD#Property_aggregation"/>
+				<entity2 rdf:resource="http://webml#Entity_duration"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+	</Alignment>
+</rdf:RDF>

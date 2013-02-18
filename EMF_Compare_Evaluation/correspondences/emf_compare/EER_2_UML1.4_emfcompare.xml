@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding="iso-8859-1" ?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+	<Alignment>
+		<!--MatchResult of of EMF Compare-->
+		<xml>yes</xml>
+		<level>0</level>
+		<type>11</type>
+		<onto1>http://er</onto1>
+		<onto2>http://UML</onto2>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://er#Relationship"/>
+				<entity2 rdf:resource="http://UML#Relationship"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#RelationshipEnd"/>
+				<entity2 rdf:resource="http://UML#AssociationEnd"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#Entity"/>
+				<entity2 rdf:resource="http://UML#Multiplicity"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#Attribute"/>
+				<entity2 rdf:resource="http://UML#Attribute"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#PrimaryKey"/>
+				<entity2 rdf:resource="http://UML#Primitive"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#ExistenceDependency"/>
+				<entity2 rdf:resource="http://UML#Dependency"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#Relationship_role"/>
+				<entity2 rdf:resource="http://UML#Association_connection"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#Relationship_relationshipAttribute"/>
+				<entity2 rdf:resource="http://UML#Classifier_feature"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#Relationship_name"/>
+				<entity2 rdf:resource="http://UML#ModelElement_name"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#RelationshipEnd_owningRelationship"/>
+				<entity2 rdf:resource="http://UML#AssociationEnd_association"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#RelationshipEnd_entity"/>
+				<entity2 rdf:resource="http://UML#MultiplicityRange_multiplicity"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#RelationshipEnd_minCardinality"/>
+				<entity2 rdf:resource="http://UML#Feature_visibility"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#Entity_entityAttribute"/>
+				<entity2 rdf:resource="http://UML#BehavioralFeature_parameter"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#PrimaryKey_owningEntity"/>
+				<entity2 rdf:resource="http://UML#Parameter_type"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://er#PrimaryKey_attribute"/>
+				<entity2 rdf:resource="http://UML#Method_operation"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+	</Alignment>
+</rdf:RDF>

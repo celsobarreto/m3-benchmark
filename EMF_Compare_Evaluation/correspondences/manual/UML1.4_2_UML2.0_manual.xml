@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding="iso-8859-1" ?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+	xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>11</type>
+	<onto1>http://UML</onto1>
+	<onto2>http://uml2CD</onto2>
+<map>
+<Cell>
+<entity1 rdf:resource='http://UML#Comment'/>
+<entity2 rdf:resource='http://uml2CD#Comment'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.78631073</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Classifier_feature'/>
+<entity2 rdf:resource='http://uml2CD#Classifier_feature'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.83533114</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#AssociationClass'/>
+<entity2 rdf:resource='http://uml2CD#AssociationClass'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7463542</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Class'/>
+<entity2 rdf:resource='http://uml2CD#Class'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.74790245</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Enumeration_literal'/>
+<entity2 rdf:resource='http://uml2CD#Enumeration_ownedLiteral'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9175731</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Enumeration'/>
+<entity2 rdf:resource='http://uml2CD#Enumeration'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.8530361</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Primitive'/>
+<entity2 rdf:resource='http://uml2CD#PrimitiveType'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.82948816</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#DataType'/>
+<entity2 rdf:resource='http://uml2CD#DataType'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7955462</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Classifier'/>
+<entity2 rdf:resource='http://uml2CD#Classifier'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7219177</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#NameSpace'/>
+<entity2 rdf:resource='http://uml2CD#Namespace'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.72657984</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#ModelElement_clientDependency'/>
+<entity2 rdf:resource='http://uml2CD#NamedElement_clientDependency'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.77975285</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#ModelElement_supplierDependency'/>
+<entity2 rdf:resource='http://uml2CD#NamedElement_supplierDependency'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.77975285</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Constraint_constrainedElement'/>
+<entity2 rdf:resource='http://uml2CD#Constraint_constrainedElement'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7228631</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Constraint'/>
+<entity2 rdf:resource='http://uml2CD#Constraint'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7027154</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Generalization_powertype'/>
+<entity2 rdf:resource='http://uml2CD#Generalization_general'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.786737</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Generalization'/>
+<entity2 rdf:resource='http://uml2CD#Generalization'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7056085</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Association'/>
+<entity2 rdf:resource='http://uml2CD#Association'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7472068</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Dependency_supplier'/>
+<entity2 rdf:resource='http://uml2CD#Dependency_supplier'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7576775</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Dependency_client'/>
+<entity2 rdf:resource='http://uml2CD#Dependency_client'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7576775</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Abstraction'/>
+<entity2 rdf:resource='http://uml2CD#Abstraction'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6402817</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Usage'/>
+<entity2 rdf:resource='http://uml2CD#Usage'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.74074</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Dependency'/>
+<entity2 rdf:resource='http://uml2CD#Dependency'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6876251</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Relationship'/>
+<entity2 rdf:resource='http://uml2CD#Relationship'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.74422395</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#ModelElement_name'/>
+<entity2 rdf:resource='http://uml2CD#NamedElement_name'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.786206</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#AssociationEnd_aggregation'/>
+<entity2 rdf:resource='http://uml2CD#Property_aggregation'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6542327</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Feature_owner'/>
+<entity2 rdf:resource='http://uml2CD#Feature_featuringClassifier'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7356034</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#StructuralFeature'/>
+<entity2 rdf:resource='http://uml2CD#StructuralFeature'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6986952</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Operation'/>
+<entity2 rdf:resource='http://uml2CD#Operation'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7924758</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#BehavioralFeature_parameter'/>
+<entity2 rdf:resource='http://uml2CD#BehavioralFeature_ownedParameter'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.81781626</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#BehavioralFeature'/>
+<entity2 rdf:resource='http://uml2CD#BehavioralFeature'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7575373</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#GeneralizableElement_generalization'/>
+<entity2 rdf:resource='http://uml2CD#Classifier_generalization'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.73660606</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#ModelElement_comments'/>
+<entity2 rdf:resource='http://uml2CD#Element_ownedComment'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.72568023</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#EnumerationLiteral_enumeration'/>
+<entity2 rdf:resource='http://uml2CD#EnumerationLiteral_enumeration'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9838246</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#EnumerationLiteral'/>
+<entity2 rdf:resource='http://uml2CD#EnumerationLiteral'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.7045299</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Parameter_feature'/>
+<entity2 rdf:resource='http://uml2CD#Parameter_ownerFormalParam'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.70831823</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Parameter_kind'/>
+<entity2 rdf:resource='http://uml2CD#Parameter_direction'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.69526637</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Parameter'/>
+<entity2 rdf:resource='http://uml2CD#Parameter'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.6854935</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Element'/>
+<entity2 rdf:resource='http://uml2CD#Element'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.85152817</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Feature'/>
+<entity2 rdf:resource='http://uml2CD#Feature'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Interface'/>
+<entity2 rdf:resource='http://uml2CD#Interface'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#GeneralizationElement_isAbstract'/>
+<entity2 rdf:resource='http://uml2CD#Classifier_isAbstract'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#GeneralizationElement_isLeaf'/>
+<entity2 rdf:resource='http://uml2CD#RedefinableElement_isLeaf'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#AssociationEnd_isNavigable'/>
+<entity2 rdf:resource='http://uml2CD#Property_class'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#AssociationEnd_visibility'/>
+<entity2 rdf:resource='http://uml2CD#NamedElement.visibility'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#AssociationEnd_targetScope'/>
+<entity2 rdf:resource='http://uml2CD#Feature_isStatic'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#AssociationEnd_changeability'/>
+<entity2 rdf:resource='http://uml2CD#StructuralFeature.isReadOnly'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#BehavioralFeature_isQuery'/>
+<entity2 rdf:resource='http://uml2CD#Operation_isQuery'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#StructuralFeature_changeability'/>
+<entity2 rdf:resource='http://uml2CD#StructuralFeature_isReadOnly'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#StructuralFeature_targetScope'/>
+<entity2 rdf:resource='http://uml2CD#Feature_isStatic'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#StructuralFeature_ordering'/>
+<entity2 rdf:resource='http://uml2CD#MultiplicityElement_isOrderd'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Attribute_initialValue'/>
+<entity2 rdf:resource='http://uml2CD#Attribute_ValueSpecification'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Operation_isLeaf'/>
+<entity2 rdf:resource='http://uml2CD#RedefinableElement_isLeaf'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Parameter_defaultValue'/>
+<entity2 rdf:resource='http://uml2CD#Parameter_ValueSpecification'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Constraint_body'/>
+<entity2 rdf:resource='http://uml2CD#Constraint_ValueSpecification'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#MultiplicityRange_lower'/>
+<entity2 rdf:resource='http://uml2CD#MultiplicityRange_ValueSpecification'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#MultiplicityRange_upper'/>
+<entity2 rdf:resource='http://uml2CD#MultiplicityRange_ValueSpecification'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+
+<Cell>
+<entity1 rdf:resource='http://UML#Comment_annotatedElement'/>
+<entity2 rdf:resource='http://uml2CD#Comment_owningElement'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#GeneralizableElement_specialization'/>
+<entity2 rdf:resource='http://uml2CD#Classifier_generalization'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Generalization_child'/>
+<entity2 rdf:resource='http://uml2CD#Generalization_specific'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Generalization_parent'/>
+<entity2 rdf:resource='http://uml2CD#Generalization_general'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Association_connection'/>
+<entity2 rdf:resource='http://uml2CD#Association_memberEnd'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Parameter_type'/>
+<entity2 rdf:resource='http://uml2CD#Type_type'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Attribute_associationEnd'/>
+<entity2 rdf:resource='http://uml2CD#Property_associationEnd'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#AssociationEnd_qualifier'/>
+<entity2 rdf:resource='http://uml2CD#Property_qualifier'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity1 rdf:resource='http://UML#Classifier_propertyRange'/>
+<entity2 rdf:resource='http://uml2CD#Classifier_powertypeExtent'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

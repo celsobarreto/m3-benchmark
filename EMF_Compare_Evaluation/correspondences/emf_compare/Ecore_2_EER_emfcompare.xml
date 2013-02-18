@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding="iso-8859-1" ?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+	<Alignment>
+		<!--MatchResult of of EMF Compare-->
+		<xml>yes</xml>
+		<level>0</level>
+		<type>11</type>
+		<onto1>http://www.eclipse.org/emf/2002/Ecore</onto1>
+		<onto2>http://er</onto2>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EAttribute"/>
+				<entity2 rdf:resource="http://er#Attribute"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EAnnotation"/>
+				<entity2 rdf:resource="http://er#RelationshipEnd"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EOperation"/>
+				<entity2 rdf:resource="http://er#Relationship"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EAnnotation_contents"/>
+				<entity2 rdf:resource="http://er#Entity_entityAttribute"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EClass_eOperations"/>
+				<entity2 rdf:resource="http://er#Relationship_relationshipAttribute"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EClass_eAttributes"/>
+				<entity2 rdf:resource="http://er#PrimaryKey_attribute"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EModelElement_eAnnotations"/>
+				<entity2 rdf:resource="http://er#Relationship_role"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#ENamedElement_name"/>
+				<entity2 rdf:resource="http://er#Relationship_name"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+	</Alignment>
+</rdf:RDF>

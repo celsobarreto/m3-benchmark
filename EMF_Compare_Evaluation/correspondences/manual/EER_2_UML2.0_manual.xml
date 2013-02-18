@@ -1,0 +1,48 @@
+<?xml version='1.0' ?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+	xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+<Alignment>
+  <type>11</type>
+  <onto1>http://er</onto1>
+  <onto2>http://uml2CD</onto2>
+<map>
+<Cell>
+<entity2 rdf:resource='http://uml2CD#Class'/>
+<entity1 rdf:resource='http://er#Entity'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://uml2CD#NamedElement_name'/>
+<entity1 rdf:resource='http://er#Entity_name'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://uml2CD#Class_superClass'/>
+<entity1 rdf:resource='http://er#Entity_isA'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://uml2CD#Association'/>
+<entity1 rdf:resource='http://er#Relationship'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://uml2CD#Association_memberEnd'/>
+<entity1 rdf:resource='http://er#Relationship_role'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+<Cell>
+<entity2 rdf:resource='http://uml2CD#NamedElement_name'/>
+<entity1 rdf:resource='http://er#Relationship_name'/>
+<measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>1</measure>
+<relation>=</relation>
+</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

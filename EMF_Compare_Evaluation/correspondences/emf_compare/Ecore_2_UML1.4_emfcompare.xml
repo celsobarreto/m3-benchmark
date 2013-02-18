@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding="iso-8859-1" ?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+	<Alignment>
+		<!--MatchResult of of EMF Compare-->
+		<xml>yes</xml>
+		<level>0</level>
+		<type>11</type>
+		<onto1>http://www.eclipse.org/emf/2002/Ecore</onto1>
+		<onto2>http://UML</onto2>
+		<map>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EAttribute"/>
+				<entity2 rdf:resource="http://UML#Attribute"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EClass"/>
+				<entity2 rdf:resource="http://UML#Class"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EClassifier"/>
+				<entity2 rdf:resource="http://UML#Classifier"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EDataType"/>
+				<entity2 rdf:resource="http://UML#DataType"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral"/>
+				<entity2 rdf:resource="http://UML#EnumerationLiteral"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EModelElement"/>
+				<entity2 rdf:resource="http://UML#ModelElement"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#ENamedElement"/>
+				<entity2 rdf:resource="http://UML#Element"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EOperation"/>
+				<entity2 rdf:resource="http://UML#Operation"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EParameter"/>
+				<entity2 rdf:resource="http://UML#Parameter"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature"/>
+				<entity2 rdf:resource="http://UML#StructuralFeature"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#ETypedElement"/>
+				<entity2 rdf:resource="http://UML#GeneralizableElement"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EAnnotation_eModelElement"/>
+				<entity2 rdf:resource="http://UML#Comment_annotatedElement"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EAnnotation_contents"/>
+				<entity2 rdf:resource="http://UML#ModelElement_comments"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EAnnotation_references"/>
+				<entity2 rdf:resource="http://UML#Generalization_parent"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EClass_eSuperTypes"/>
+				<entity2 rdf:resource="http://UML#Classifier_powertypeRange"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EClass_eOperations"/>
+				<entity2 rdf:resource="http://UML#Method_operation"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EClass_eStructuralFeatures"/>
+				<entity2 rdf:resource="http://UML#Classifier_feature"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EClass_abstract"/>
+				<entity2 rdf:resource="http://UML#GeneralizableElement_isAbstract"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EEnum_eLiterals"/>
+				<entity2 rdf:resource="http://UML#Enumeration_literal"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral_value"/>
+				<entity2 rdf:resource="http://UML#Attribute_initialValue"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EModelElement_eAnnotations"/>
+				<entity2 rdf:resource="http://UML#Association_connection"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#ENamedElement_name"/>
+				<entity2 rdf:resource="http://UML#ModelElement_name"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EOperation_eParameters"/>
+				<entity2 rdf:resource="http://UML#BehavioralFeature_parameter"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EOperation_eExceptions"/>
+				<entity2 rdf:resource="http://UML#GeneralizableElement_generalization"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EPackage_eClassifiers"/>
+				<entity2 rdf:resource="http://UML#AssociationEnd_qualifier"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EPackage_eSubpackages"/>
+				<entity2 rdf:resource="http://UML#Multiplicity_range"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EParameter_eOperation"/>
+				<entity2 rdf:resource="http://UML#AssociationEnd_specification"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature_changeable"/>
+				<entity2 rdf:resource="http://UML#StructuralFeature_changeability"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature_defaultValueLiteral"/>
+				<entity2 rdf:resource="http://UML#Parameter_defaultValue"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature_unsettable"/>
+				<entity2 rdf:resource="http://UML#AssociationEnd_isNavigable"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature_derived"/>
+				<entity2 rdf:resource="http://UML#StructuralFeature_ordering"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#ETypedElement_eType"/>
+				<entity2 rdf:resource="http://UML#Parameter_type"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#ETypedElement_lowerBound"/>
+				<entity2 rdf:resource="http://UML#MultiplicityRange_lower"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+			<Cell>
+				<entity1 rdf:resource="http://www.eclipse.org/emf/2002/Ecore#ETypedElement_upperBound"/>
+				<entity2 rdf:resource="http://UML#MultiplicityRange_upper"/>
+				<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</measure>
+				<relation>=</relation>
+			</Cell>
+		</map>
+	</Alignment>
+</rdf:RDF>
